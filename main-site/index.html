@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="public/images/BrandonBrownIcon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton-framework/1.1.1/skeleton.min.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Brandon Brown</title>
+</head>
+
+<body>
+  <div id="navbar">
+    <div class="horizontal-list">
+      <ul>
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a id="projects-nav-link">Projects</a>
+        </li>
+        <li>
+          <a href="about">About</a>
+        </li>
+        <li>
+          <a href="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="introduction">
+    <img id="main-image-atlanta" src="public/images/Atlanta.png" alt="main" />
+    <img id="main-image-mobile" src="public/images/MobileBackground.png" alt="main" />
+    <div class="introduction-title">
+      <h1>Brandon Brown</h1>
+      <h2>Full Stack Web Developer</h2>
+      <h4 id="location"><i class="fas fa-map-marker-alt"></i> Atlanta Area</h4>
+      <div class="intro-icons-container container">
+        <div class="row">
+          <div class="three columns">
+            <a href="http://github.com/brandonbrown4792" target="_blank">
+              <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+              <p>Github</p>
+            </a>
+          </div>
+          <div class="three columns">
+            <a href="http://linkedin.com/in/brandonbrown4792" target="_blank">
+              <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+              <p>LinkedIn</p>
+            </a>
+          </div>
+          <div class="three columns">
+            <a href="https://dev.to/brandonbrown4792" target="_blank">
+              <i class="fab fa-dev fa-2x"></i>
+              <p>Dev.to</p>
+            </a>
+          </div>
+          <div class="three columns">
+            <a href="resume.pdf" target="_blank">
+              <i class="fas fa-book fa-2x"></i>
+              <p>Resume</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a id="scroll-down">
+        <i class="fas fa-angle-double-down fa-3x"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="skillset-container">
+    <h1 id="skillset" class="section-title">Skillset</h1>
+    <div class="skill-images-container">
+      <div class="horizontal-list">
+        <ul>
+          <li>
+            <img class="skill-image" src="public/images/Skills Logos/Rails Logo.png" alt="rails" />
+          </li>
+          <li>
+            <img class="skill-image" src="public/images/Skills Logos/React Logo.png" alt="react" />
+          </li>
+          <li>
+            <img class="skill-image" src="public/images/Skills Logos/Redux Logo.png" alt="redux" />
+          </li>
+          <li>
+            <img class="skill-image" src="public/images/Skills Logos/Git Logo.png" alt="git" />
+          </li>
+          <li>
+            <img class="skill-image" src="public/images/Skills Logos/SQL Logo.png" alt="sql" />
+          </li>
+          <li>
+            <img class="skill-image" src="public/images/Skills Logos/HTML5 Logo.png" alt="html5" />
+          </li>
+          <li>
+            <img class="skill-image" src="public/images/Skills Logos/CSS3 Logo.png" alt="css3" />
+          </li>
+          <li>
+            <img class="skill-image" src="public/images/Skills Logos/C Sharp Logo.png" alt="c#" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr />
+
+  <h1 id="projects" class="section-title">Projects</h1>
+  <div class="projects-container container">
+    <div class="heroku-message"><b>Note:</b><br />
+      All projects have been deployed using Heroku's free plan.<br />
+      Both frontend and backend servers will take about 15 seconds to wake.<br />
+      Once frontend loads, please give adequate time on backend requests (logging in, etc.)
+    </div>
+    <div class="project">
+      <div class="row">
+        <div class="six columns">
+          <div class="project-title">Bulletin</div>
+          <img class="project-image" src="public/images/Projects/Bulletin.png" />
+          <div class="project-demo">
+            <a href="https://www.youtube.com/watch?v=LRW9Y2imcJs" target="_blank">
+              <i class="fab fa-youtube"></i>Video Demo
+            </a>
+            <a href="https://bulletin-app-front.herokuapp.com/" target="_blank">
+              <i class="fas fa-desktop"></i>Live Demo
+            </a><br />
+            <a href="https://github.com/brandonbrown4792/bulletin-backend" target="_blank">
+              <i class="fas fa-code-branch"></i>Backend
+            </a>
+            <a href="https://github.com/brandonbrown4792/bulletin-frontend" target="_blank">
+              <i class="fas fa-code-branch"></i>Frontend
+            </a>
+          </div>
+        </div>
+        <div class="six columns">
+          <div class="project-subtitle">Overview</div>
+          <p class="project-overview">
+            Bulletin is a social networking platform centered around news.
+            As the rise of social media continues, younger generations stray away from traditional news sites and
+            articles and turn to resources such as Twitter and Facebook.
+            This app seeks to combine traditional news outlets with a social media interface for a more captivating
+            and engaging experience.
+            With Bulletin, users are able to follow specific news sources or interests as well as follow other users.
+            Using this approach, Bulletin strives to become a one-stop-shop news outlet for any generational user.
+          </p>
+          <div class="project-subtitle">Features</div>
+          <div class="container">
+            <div class="row">
+              <ul class="project-list">
+                <div class="twelve columns">
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Customizable user feed
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Messaging to other users
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Searchable tags to find posts easier
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Notifications to prioritize user experience
+                  </li>
+                </div>
+            </div>
+          </div>
+          <div class="project-subtitle">Technologies Used</div>
+          <div class="container">
+            <div class="row">
+              <ul class="project-list">
+                <div class="six columns">
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Ruby on Rails</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Postgresql</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>React JS</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Redux</li>
+                </div>
+                <div class="six columns">
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>News API</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>React Material UI</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>HTML</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>CSS</li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="row">
+        <div class="six columns">
+          <div class="project-title">Dispatch</div>
+          <img class="project-image" src="public/images/Projects/Dispatch.png" />
+          <div class="project-demo">
+            <a href="https://dispatch-app-front.herokuapp.com/" target="_blank">
+              <i class="fas fa-desktop"></i>Live Demo
+            </a><br />
+            <a href="https://github.com/brandonbrown4792/dispatch-backend" target="_blank">
+              <i class="fas fa-code-branch"></i>Backend
+            </a>
+            <a href="https://github.com/brandonbrown4792/dispatch-frontend" target="_blank">
+              <i class="fas fa-code-branch"></i>Frontend
+            </a>
+          </div>
+        </div>
+        <div class="six columns">
+          <div class="project-subtitle">Overview</div>
+          <p class="project-overview">
+            Dispatch is a nurse dispatcher application that allows for digital scheduling of appointments for
+            patients.
+            An integrated map provides the dispatcher easier management of appointments. The appointments are also
+            available in a list view.
+            Nurses may log in to view their patient appointments in a map view.
+            Patients may log in to view their appointments.
+          </p>
+          <div class="project-subtitle">Features</div>
+          <div class="container">
+            <div class="row">
+              <ul class="project-list">
+                <div class="twelve columns">
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Integrated map for dispatchers and patients
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Integrated list view for of appointments for
+                    dispatchers
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Appointment filtering by nurse, patient,
+                    appointment reason, appointment status, and date
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Messaging between users
+                  </li>
+                </div>
+            </div>
+          </div>
+          <div id="projects" class="project-subtitle">Technologies Used</div>
+          <div class="container">
+            <div class="row">
+              <ul class="project-list">
+                <div class="six columns">
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Ruby on Rails</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Postgresql</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>React JS</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Mapbox API</li>
+                </div>
+                <div class="six columns">
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>React Material UI</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>HTML</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>CSS</li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="row">
+        <div class="six columns">
+          <div class="project-title">The Mix</div>
+          <img class="project-image" src="public/images/Projects/The Mix.png" />
+          <div class="project-demo">
+            <a href="https://the-mix.netlify.app/" target="_blank">
+              <i class="fas fa-desktop"></i>Live Demo
+            </a><br />
+            <a href="https://github.com/brandonbrown4792/the-mix-backend" target="_blank">
+              <i class="fas fa-code-branch"></i>Backend
+            </a>
+            <a href="https://github.com/brandonbrown4792/the-mix-frontend" target="_blank">
+              <i class="fas fa-code-branch"></i>Frontend
+            </a>
+          </div>
+        </div>
+        <div class="six columns">
+          <div class="project-subtitle">Overview</div>
+          <p class="project-overview">
+            The Mix is the perfect place to find your next cocktail.
+            Using an external api to source existing cocktails and the giving each user the ability to create their
+            own
+            cocktail,
+            The Mix is the perfect spot to share and find cocktails.
+          </p>
+          <div class="project-subtitle">Features</div>
+          <div class="container">
+            <div class="row">
+              <ul class="project-list">
+                <div class="twelve columns">
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Search cocktails by name or ingredient
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Review and favorite cocktails
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Add user created cocktails
+                  </li>
+                </div>
+            </div>
+          </div>
+          <div id="projects" class="project-subtitle">Technologies Used</div>
+          <div class="container">
+            <div class="row">
+              <ul class="project-list">
+                <div class="six columns">
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Ruby on Rails</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Postgresql</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>JavaScript</li>
+                </div>
+                <div class="six columns">
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>HTML</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>CSS</li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="row">
+        <div class="six columns">
+          <div class="project-title">On Trak</div>
+          <img class="project-image" src="public/images/Projects/On Trak.png" />
+          <div class="project-demo">
+            <a href="https://on-trak.herokuapp.com/" target="_blank">
+              <i class="fas fa-desktop"></i>Live Demo
+            </a><br />
+            <a href="https://github.com/brandonbrown4792/on-trak-app" target="_blank">
+              <i class="fas fa-code-branch"></i>Source Code
+            </a>
+          </div>
+        </div>
+        <div class="six columns">
+          <div class="project-subtitle">Overview</div>
+          <p class="project-overview">
+            On Trak is a collaborative task management application.
+            Users are able to create individual or shared lists to make group task management easy.
+          </p>
+          <div class="project-subtitle">Features</div>
+          <div class="container">
+            <div class="row">
+              <ul class="project-list">
+                <div class="twelve columns">
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Create individual or collaborative lists
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Create user groups for easy list assignement
+                  </li>
+                  <li>
+                    <i class="fa fa-check-circle" aria-hidden="true"></i>Update list contents and completion as
+                    necessary
+                  </li>
+                </div>
+            </div>
+          </div>
+          <div id="projects" class="project-subtitle">Technologies Used</div>
+          <div class="container">
+            <div class="row">
+              <ul class="project-list">
+                <div class="six columns">
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Ruby on Rails</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Postgresql</li>
+                </div>
+                <div class="six columns">
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Rails ERB Frontend</li>
+                  <li><i class="fa fa-check-circle" aria-hidden="true"></i>Semantic UI</li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p class="footer-main-message">Thank you for visiting!</p>
+    <p class="footer-secondary-message">
+      Please contact me <a href="contact.html">here</a> if you would like to reachout
+    </p>
+    <div class="footer-icons-container">
+      <a href="http://github.com/brandonbrown4792" target="_blank">
+        <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="http://linkedin.com/in/brandonbrown4792" target="_blank">
+        <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="https://dev.to/brandonbrown4792" target="_blank">
+        <i class="fab fa-dev fa-2x"></i>
+      </a>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

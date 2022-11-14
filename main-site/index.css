@@ -1,0 +1,434 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'), url(./fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'OpenSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#navbar {
+  position: absolute;
+  z-index: 1;
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#projects-nav-link {
+  cursor: pointer;
+}
+
+.horizontal-list {
+  color: white;
+  text-align: center;
+}
+
+.horizontal-list ul {
+  margin: 0;
+  padding-left: 0;
+  font-size: 0;
+}
+.horizontal-list li {
+  display: inline-block;
+  line-height: 3em;
+  width: auto;
+  padding: 0 1em;
+  font-size: 16pt;
+}
+
+.horizontal-list li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#main-image-atlanta {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  filter: brightness(50%);
+}
+
+#main-image-mobile {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  filter: brightness(50%);
+}
+
+.introduction-title {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.introduction-title > h1 {
+  font-size: 56pt;
+  margin-bottom: 20px;
+}
+
+.introduction-title > h2 {
+  font-size: 22pt;
+  margin-bottom: 20px;
+}
+
+#location {
+  margin-top: 0px;
+}
+
+.fa-map-marker-alt {
+  padding-right: 10px;
+}
+
+.intro-icons-container {
+  margin-top: 60px;
+  max-width: 600px;
+  padding: 0px 20px;
+}
+
+.intro-icons-container .three {
+  margin-bottom: 15px;
+}
+
+.intro-icons-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.intro-icons-container a:hover {
+  color: white;
+}
+
+.intro-icons-container img {
+  margin: 0;
+  color: white;
+}
+
+.intro-icons-container p {
+  text-align: center;
+  margin: 0;
+}
+
+#scroll-down {
+  display: inline-block;
+  margin-top: 80px;
+}
+
+#scroll-down > i {
+  padding: 6px 15px;
+  color: white;
+  background: black;
+  border-radius: 50%;
+  border: 2px double white;
+  cursor: pointer;
+}
+
+#big-scroll-down > i:hover {
+  background: #b9a46b;
+  transition: 0.3s;
+}
+
+.section-title {
+  margin: auto;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.skill-images-container {
+  margin: auto;
+}
+
+.skill-image {
+  height: 8vh;
+  padding: 10px 20px;
+}
+
+
+.heroku-message {
+  background: #F9D7DA;
+  color: #741B24;
+  border: 1px solid #F6C6CB;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.projects-container {
+  margin: 10px auto;
+  padding: 10px 20px;
+}
+
+.projects-container > .project:first-child {
+  border-top: 1px solid #85b1da;
+}
+
+.projects-container > .project:last-child {
+  border-bottom: none;
+}
+
+.project {
+  border-bottom: 1px solid #85b1da;
+  padding: 30px 0px;
+}
+
+.project-title {
+  margin-top: 10px;
+  font-size: 24pt;
+  color: #47627a
+}
+
+.project-image {
+  width: 90%;
+  margin: 20px 0px;
+  border: 2px solid #6288b9;
+  border-radius: 8px;
+}
+
+.project-demo > a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 800;
+  color: #6288b9;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+
+.project-demo > a > i {
+  padding-right: 10px;
+}
+
+.project-subtitle {
+  font-size: 16pt;
+  font-weight: bold;
+  margin: 20px 0px 10px 0px;
+}
+
+.project-overview {
+  margin-bottom: 0px;
+}
+
+.project-list {
+  list-style: none;
+}
+
+.project-list > div > li {
+  margin: 0px;
+}
+
+.project-list > div > li > i {
+  margin-right: 5px;
+  color: #6288b9;
+}
+
+.footer {
+  text-align: center;
+  background: #47627a;
+  color: white;
+}
+
+.footer > p {
+  margin: 0;
+}
+
+.footer-main-message {
+  padding-top: 30px;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.footer-secondary-message {
+  padding-bottom: 30px;
+  font-size: 10pt;
+}
+
+.footer-icons-container {
+  padding-bottom: 30px;
+}
+
+.footer-icons-container a {
+  text-decoration: none;
+  color: white;
+  margin: 100px 40px;
+}
+
+.footer-icons-container a:hover {
+  color: white;
+}
+
+.about-box {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  color: black;
+  max-width: 750px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.profile-picture {
+  width: 90%;
+  height: auto;
+  border-radius: 50%;
+  float: right;
+  padding-bottom: 20px;
+}
+
+.about-content {
+  border-left: 1px solid black;
+  padding-left: 5px;
+}
+
+.about-content p {
+  margin: 0px;
+  font-size: 10pt;
+}
+
+.contact-form {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  color: black;
+  max-width: 750px;
+  border-radius: 10px;
+  padding: 20px 50px 10px 50px;
+}
+
+.contact-form h5 {
+  font-weight: bold;
+}
+
+.contact-form input[type="text"] {
+  width: 100%;
+}
+
+.contact-form textarea {
+  width: 100%;
+  resize: none;
+  height: 20%;
+}
+
+.contact-form button:hover {
+  background: #39A739;
+  transition: 0.3s;
+}
+
+.submit-success {
+  background: #D3EDDB;
+  color: #125728;
+  border: 1px solid #C2E6CC;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.submit-failure {
+  background: #F9D7DA;
+  color: #741B24;
+  border: 1px solid #F6C6CB;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.about {
+  background: #0A1012;
+}
+
+.contact {
+  background: #0A1012;
+}
+
+@media (max-width: 800px) {
+  #main-image-atlanta {
+    display: none;
+  }
+  
+  #main-image-mobile {
+    display: block;
+  }
+  
+  #navbar {
+    width: 100%;
+  }
+
+  .about {
+    background: #182531;
+  }
+
+  .contact {
+    background: #182531;
+  }
+
+  .contact-form {
+    max-width: 90%;
+  }
+
+  .about-box {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .introduction-title > h1 {
+    font-size: 28pt;
+    margin-bottom: 20px;
+  }
+
+  .introduction-title > h2 {
+    font-size: 14pt;
+    margin-bottom: 20px;
+  }
+  
+  #location {
+    margin-top: 0px;
+    font-size: 14pt;
+  }
+  
+  .fa-map-marker {
+    padding-right: 10px;
+  }
+
+  .horizontal-list {
+    color: white;
+    text-align: center;
+  }
+  
+  .horizontal-list ul {
+    margin: 0;
+    padding-left: 0;
+    font-size: 0;
+  }
+  .horizontal-list li {
+    display: inline-block;
+    line-height: 3em;
+    width: auto;
+    padding: 0 1em;
+    font-size: 11pt;
+  }
+
+  #scroll-down {
+    display: none;
+  }
+
+  .profile-picture {
+    float: none;
+  }
+}
